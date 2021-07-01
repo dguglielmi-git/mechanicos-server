@@ -1,0 +1,37 @@
+{
+  "name": "mechanicos-server",
+  "version": "1.0.0",
+  "description": "MechanicOS GraphQL Server",
+  "main": "index.js",
+  "author": "Daniel Guglielmi",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "apixu": "github:apixu/apixu-nodejs",
+    "apollo-server": "^2.19.2",
+    "aws-sdk": "^2.835.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "firebase-admin": "^9.7.0",
+    "firebase-functions": "^3.13.2",
+    "fs-capacitor": "3.0.0",
+    "graphql": "^15.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.14",
+    "mongoose-float": "^1.0.4",
+    "uuid": "^8.3.2",
+    "webpack": "^5.36.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "resolutions": {
+    "fs-capacitor": "3.0.0"
+  }
+}
