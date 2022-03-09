@@ -24,7 +24,7 @@ async function incBudgetNum() {
 }
 
 async function getBudget() {
-  const budget = await Budget.find();
+  const budget = await Budget.find().sort({ issueDate: -1 });
 
   const budgetList = [];
   for await (const data of budget) {
