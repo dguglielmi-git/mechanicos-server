@@ -51,7 +51,7 @@ async function insertBudget(input) {
 }
 
 async function getBudgets() {
-  const results = await Budget.find();
+  const results = await Budget.find().sort({ issueDate: -1 });
   return results;
 }
 
